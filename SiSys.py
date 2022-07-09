@@ -8,17 +8,10 @@ btm_hearts = 10
 btm_spades = 13
 
 def from_top(index, btm_card, subtrahend):
-    if index < btm_card:
-        diff = btm_card - index
-        diff_4 = diff * 4
-        result = diff_4 - subtrahend
-        print('from top -> ', result)
-    else:
-        tmp = btm_card + 13
-        diff = tmp - index
-        diff_4 = diff * 4
-        result = diff_4 - subtrahend        
-        print('from top -> ', result)
+    diff = btm_card - index if index < btm_card else (btm_card + 13) - index
+    diff_4 = diff * 4
+    result = diff_4 - subtrahend
+    print('from top -> ', result) 
 
 def calc(suit, index):
     if suit == 'diamonds':
