@@ -5,6 +5,8 @@ wadeさんの動画：【[混ぜた状態でも相手のカードの位置がわ
 
 # 使用方法
 
+`suit`と`index`を入力した後にエンターを押すと答えが出ます。
+
 ![demo](https://user-images.githubusercontent.com/85237728/178111610-e355443c-0b9f-45e6-8d1e-6c5b861bc230.gif)
 
 動画中では`./SiSys.py`と実行してますが、`python3 SiSys.py`と実行すべきでした。すんません。
