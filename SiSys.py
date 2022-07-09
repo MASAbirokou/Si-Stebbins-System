@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-import sys
 
 # you can change these four bottom cards as you like
 btm_diamonds = 4
